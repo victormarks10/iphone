@@ -150,10 +150,10 @@ ul {
         padding: 0;
     }
     .iphone {
-        width: 100px;
+        width: 150px;
         margin: 0;
         position: absolute;
-        margin-top: 11rem;
+        margin-top: 21rem;
     }
     .cancelar {
         display: none;
@@ -166,10 +166,8 @@ ul {
 
     .caixa-azul {
         padding: 60px;
-    }
-
-
-
+        flex-direction: column;
+        text-align: center;
 }
 
 
@@ -179,7 +177,7 @@ ul {
 
 
 
-
+}
 
 
 
