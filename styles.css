@@ -133,100 +133,58 @@ ul {
     right: 0px;
     clip-path: circle(430px at right 750px);
 
+} 
 
-}
 
-@media screen and (min-width:400px) and (max-width:800px) {
+    
+
+@media screen and (min-width:300px) and (max-width:600px)  {
+    
+    ul{
+        display: none;
+    }
+
 
     .caixa-azul {
-        padding: 40px;
-    }
-
-    ul {
-        display: none;
-    }
-
-    .titulo-secundario {
-        font-size: 33px;
-        margin-top: 10px;
-        margin-bottom: 20px
-    }
-
-    .paragrafo {
-        display: none;
-    }
-
-    .circulo {
-        height: 99%;
-        width: 76%;
-        clip-path: circle(25.1% at 87% 55%);
-
-    }
-
-
-
-    .iphone {
         margin: 0;
         padding: 0;
-        width: 120px;
+    }
+    .iphone {
+        width: 100px;
+        margin: 0;
+        position: absolute;
         margin-top: 11rem;
     }
+    .cancelar {
+        display: none;
+    }
 
+    .circulo{
 
-}
-
-@media screen and (min-width:300px) and (max-width:399px) {
-
-
+        clip-path:circle(29.4% at 50% 100%);
+    }
 
     .caixa-azul {
-        padding: 40px;
-    }
-
-    ul {
-        display: none;
-    }
-
-
-    .paragrafo {
-        display: none;
-    }
-
-
-    .titulo-secundario {
-        font-size: 33px;
-        margin-top: 10px;
-        margin-bottom: 20px
-    }
-
-
-
-    .circulo {
-
-        height: 99%;
-        width: 76%;
-        clip-path: circle(25.1% at 92% 53%);
-
-    }
-
-
-
-
-
-    .titulo-iphone {
-        font-size: 25px;
-
-    }
-
-
-    .iphone {
-        width: 90px;
-        margin: 0;
-        padding: 0;
-        margin-top: 61px;
-
+        padding: 60px;
     }
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
