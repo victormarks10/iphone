@@ -150,10 +150,10 @@ ul {
         padding: 0;
     }
     .iphone {
-        width: 150px;
+        width: 120px;
         margin: 0;
         position: absolute;
-        margin-top: 21rem;
+        margin-top: 24rem;
     }
     .cancelar {
         display: none;
@@ -169,6 +169,10 @@ ul {
         flex-direction: column;
         text-align: center;
 }
+
+
+
+
 
 
 
